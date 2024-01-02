@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:doctor_baby/views/inro_screens/views/pages.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../../utils/colors/mycolors.dart';
 
 class Splash extends StatefulWidget {
@@ -25,15 +26,16 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Center(
-            child: Image.asset('assets/intro_images/baby.png',height: 200,width: 150,),
-          ),
-          SizedBox(height: 40,),
-          Text("Welcome",style: TextStyle(fontSize: 50,fontStyle: FontStyle.italic,color: MyColors.titleTextColor))
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(
+              child: Image.asset('assets/intro_images/baby.png',height: 300,width: 300,),
+            ),
+            Text("Welcome",style: GoogleFonts.satisfy(fontSize: 100,fontWeight: FontWeight.bold,color: MyColors.titleTextColor))
+          ],
+        ),
       ),
     );
   }

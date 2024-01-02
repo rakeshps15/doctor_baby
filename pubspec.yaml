@@ -35,6 +35,7 @@ dependencies:
   shared_preferences:
   fluttertoast:
   get:
+  google_fonts:
 
 
   # The following adds the Cupertino Icons font to your application.

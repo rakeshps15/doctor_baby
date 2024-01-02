@@ -148,7 +148,7 @@ class _IntroState extends State<Intro> {
                       textTheme: textTheme,
                       onTap: () {
                         setState(() {
-                          pageController.animateToPage(4,
+                          pageController.animateToPage(2,
                               duration: const Duration(milliseconds: 1000),
                               curve: Curves.fastOutSlowIn);
                         });
