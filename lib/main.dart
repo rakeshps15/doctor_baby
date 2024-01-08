@@ -1,5 +1,4 @@
 import 'package:doctor_baby/utils/colors/mycolors.dart';
-import 'package:doctor_baby/views/inro_screens/views/pages.dart';
 import 'package:doctor_baby/views/inro_screens/views/scrn.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
