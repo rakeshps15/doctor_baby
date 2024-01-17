@@ -1,7 +1,8 @@
 import 'dart:convert';
+
+import 'package:doctor_baby/model/dates_model.dart';
+import 'package:doctor_baby/services/dates_service.dart';
 import 'package:get/get.dart';
-import '../model/dates_model.dart';
-import '../service/date_service.dart';
 
 class DatesController extends GetxController{
 
@@ -12,7 +13,7 @@ class DatesController extends GetxController{
     getDates();
     super.onInit();
   }
-
+  
   void getDates() async{
     try {
       var data = await Httpdates.fetchDates();
